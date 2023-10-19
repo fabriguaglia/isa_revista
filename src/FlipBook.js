@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HTMLFlipBook from "react-pageflip";
 
+
 import Image from "./assets/images/NewsLetter/00.png";
 import Image1 from "./assets/images/NewsLetter/01.png";
 import Image2 from "./assets/images/NewsLetter/02.png";
@@ -39,7 +40,6 @@ export default class FlipBook extends Component {
     return (
       <>
         <HTMLFlipBook width={422} height={601}>
-          <div className="bg-dark d-none d-lg-block d-xl-none"></div>
           <div className="">
             <img src={Image} width="422" height="601" alt="" />
           </div>
