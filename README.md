@@ -48,9 +48,9 @@ Esto abrirá automáticamente la aplicación en tu navegador predeterminado. Tam
 
 ## Despliegue 📦
 
-Desplegado con [Netlify](https://www.netlify.com/) :
+Desplegado con [Vercel](https://www.vercel.com/) :
 
-https://sembraverde.netlify.app/
+https://isa-revista.vercel.app/
 
 ## Construido con 🛠️
 
