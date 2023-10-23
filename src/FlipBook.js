@@ -136,7 +136,6 @@ export default class FlipBook extends Component {
           <div className="">
             <img src={Image31} width="422" height="601" alt="" />
           </div>
-          <div className="bg-dark"></div>
         </HTMLFlipBook>
       </>
     );
