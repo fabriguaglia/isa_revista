@@ -73,6 +73,3 @@ GitHub: <https://github.com/fabriguaglia>
 LinkedIn: <https://www.linkedin.com/in/fabrizio-donato-guaglianone>
 
 Correo: <fabriguaglia72@gmail.com>
-
----
-⌨️ con ❤️ por [fabriguaglia](https://github.com/fabriguaglia) 😊
