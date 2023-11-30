@@ -20,6 +20,8 @@ import Image14 from "./assets/images/NewsLetter/14.png";
 import Image15 from "./assets/images/NewsLetter/15.png";
 import Image16 from "./assets/images/NewsLetter/16.png";
 import Image17 from "./assets/images/NewsLetter/17.png";
+import Image18 from "./assets/images/NewsLetter/18.png";
+
 
 export default class FlipBook extends Component {
   render() {
@@ -79,6 +81,9 @@ export default class FlipBook extends Component {
           </div>
           <div className="">
             <img src={Image17} width="422" height="601" alt="" />
+          </div>
+          <div className="">
+            <img src={Image18} width="422" height="601" alt="" />
           </div>
         </HTMLFlipBook>
       </>
