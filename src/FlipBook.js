@@ -25,6 +25,21 @@ import Image18 from "./assets/images/NewsLetter/18.png";
 
 export default class FlipBook extends Component {
   render() {
+    const transparentLinkStyle = {
+      padding: '10px',
+      backgroundColor: 'transparent',
+      color: 'white',
+      borderRadius: '5px',
+      border: '1px solid white',
+      opacity: '0.5',
+      textDecoration: 'none'
+    };
+    const linkContainerStyle = {
+      position: 'absolute',
+      bottom: '10px',
+      right: '114px'
+    };
+
     return (
       <>
         <HTMLFlipBook width={422} height={601}>
@@ -81,6 +96,11 @@ export default class FlipBook extends Component {
           </div>
           <div className="">
             <img src={Image17} width="422" height="601" alt="" />
+            <div style={Object.assign({}, linkContainerStyle, { right: '114px' })}>
+              <a href="https://casainteligente.santa-ana.edu.ar/wp" style={transparentLinkStyle} target="_blank" rel="noopener noreferrer">
+                Tu enlace
+              </a>
+            </div>
           </div>
           <div className="">
             <img src={Image18} width="422" height="601" alt="" />
